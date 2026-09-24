@@ -1,0 +1,121 @@
+<!doctype html>
+<html lang="en-GB" data-site="uk" data-ads="0" data-analytics="https://script.google.com/macros/s/AKfycbxHQlHysMpBYeMtXllnKHrtNapP1boLOlWY2jzD28685JRtkd1MP4aFbSotnb7CzqJw/exec">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Tax Code Checker 2026/27 — is your payslip right?</title>
+<meta name="description" content="Check your UK payslip against your tax code: recomputes PAYE income tax and National Insurance for the period, shows what a BR, 0T, K or emergency W1/M1 code costs you against 1257L, and what to do to get a refund.">
+<link rel="canonical" href="https://steel1927.github.io/uk/tax-code-check/">
+<meta property="og:type" content="website"><meta property="og:site_name" content="SmartCalc"><meta property="og:title" content="Tax Code Checker 2026/27 — is your payslip right?">
+<meta property="og:description" content="Check your UK payslip against your tax code: recomputes PAYE income tax and National Insurance for the period, shows what a BR, 0T, K or emergency W1/M1 code costs you against 1257L, and what to do to get a refund."><meta property="og:url" content="https://steel1927.github.io/uk/tax-code-check/">
+<meta property="og:image" content="https://steel1927.github.io/assets/og/uk.png"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta name="twitter:card" content="summary_large_image">
+<meta property="og:locale" content="en_GB">
+<meta name="theme-color" content="#e6e8e3" media="(prefers-color-scheme: light)"><meta name="theme-color" content="#27292b" media="(prefers-color-scheme: dark)">
+<meta name="google-site-verification" content="sDMENSS6u7w2F-o_0euwuqsSYUFznWV3Adtb-m8FChY">
+<link rel="icon" href="/assets/favicon.svg" type="image/svg+xml">
+<link rel="preload" href="/assets/fonts/public-sans-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/assets/fonts/martian-mono-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="/assets/style.css?v=8875ec8076">
+
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"FAQPage","mainEntity":[{"@type":"Question","name":"Why is my tax code BR?","acceptedAnswer":{"@type":"Answer","text":"BR means all your pay is taxed at 20% with no Personal Allowance. It is correct for a second job or a pension, but on your only job it usually means your employer had no P45 or starter checklist. On £3,000 a month it costs about £210 a month more than 1257L until HMRC corrects it."}},{"@type":"Question","name":"What does W1, M1 or X after my code mean?","acceptedAnswer":{"@type":"Answer","text":"The code is being used on a non-cumulative \"week 1 / month 1\" basis: each pay period is taxed on its own, so earlier overpayments are not refunded through payroll. It is normal after a job change and should be replaced by a cumulative code within weeks."}},{"@type":"Question","name":"My payslip tax does not match any code — why?","acceptedAnswer":{"@type":"Answer","text":"The most common reason is a cumulative catch-up: after a code change, payroll adjusts the whole year to date in one payslip, so one period is unusually high or low. Enter your tax period number and year-to-date figures to check the cumulative position instead."}},{"@type":"Question","name":"How do I get a tax refund from HMRC?","acceptedAnswer":{"@type":"Answer","text":"If the code is fixed during the year, payroll refunds the excess automatically. After the tax year ends, HMRC sends a P800 letter; you claim the refund through your personal tax account or the HMRC app. You can go back four tax years."}},{"@type":"Question","name":"Does this check National Insurance too?","acceptedAnswer":{"@type":"Answer","text":"Yes. Enter the NI deducted and the tool compares it with the category A employee rate for 2026/27 (8% between £1,048 and £4,189 a month, 2% above). Directors, people over State Pension age and some under-21 or apprentice categories use different rules."}},{"@type":"Question","name":"Is my data sent anywhere?","acceptedAnswer":{"@type":"Answer","text":"No. Everything is calculated in your browser; nothing you type is stored or transmitted."}}]}</script>
+<script defer src="/assets/track.js?v=8875ec8076"></script>
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<header class="bar"><div class="wrap bar-in">
+  <a class="brand" href="/uk/"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path class="mark-sheet" d="M6 2.5h20v27H6z"/><path class="mark-line" d="M10 8h12M10 12.5h8"/><path class="mark-perf" d="M6 18.5h20"/><path class="mark-net" d="M10 23.5h12"/></svg><span class="brand-name">SmartCalc</span><span class="brand-product">Take-home UK</span></a>
+  <nav class="nav" aria-label="Take-home UK"><a href="/uk/">Take-home pay</a><a href="/uk/gross-from-net/">Net → Gross</a><a href="/uk/tax-code-check/" aria-current="page">Payslip check</a></nav>
+  <details class="country"><summary aria-label="Country"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="12" cy="12" r="10"/><path d="M12 2a14.5 14.5 0 0 0 0 20 14.5 14.5 0 0 0 0-20"/><path d="M2 12h20"/></svg><span>United Kingdom</span><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary>
+  <ul><li><a href="/">Việt Nam</a></li><li><a href="/uk/" aria-current="true">United Kingdom</a></li><li><a href="/de/">Deutschland</a></li><li><a href="/in/">India</a></li><li><a href="/ph/">Philippines</a></li><li><a href="/us/">United States</a></li><li><a href="/ca/">Canada</a></li><li><a href="/au/">Australia</a></li><li><a href="/fr/">France</a></li><li><a href="/pl/">Polska</a></li>
+  <li class="sep"><a href="/compare/">Compare 10 countries</a></li></ul>
+</details>
+</div></header>
+<main class="wrap page" id="main">
+  <div class="page-main">
+  
+  <h1>Is your payslip right? Check your tax code</h1>
+  <p class="lead">Type the tax code and figures from one payslip. See whether payroll took the right tax and NI, which code they really used, and what your code costs you over the year.</p>
+  <section class="slip" aria-label="Is your payslip right? Check your tax code">
+  
+<form class="tool" data-tool="ukcheck" autocomplete="off">
+  <div class="field wide"><label for="code">Tax code on your payslip</label><input id="code" name="code" class="money big" value="1257L" maxlength="12" spellcheck="false" autocapitalize="characters"></div>
+  <div class="field"><label for="frequency">Paid</label><select id="frequency" name="frequency"><option value="monthly">Monthly</option><option value="weekly">Weekly</option><option value="fortnightly">Fortnightly</option><option value="fourweekly">Every 4 weeks</option></select></div>
+  <div class="field"><label for="pay">Taxable pay this period (£)</label><input id="pay" name="pay" inputmode="decimal" class="money" value="3000"></div>
+  <div class="field"><label for="taxDeducted">Income tax deducted (£)</label><input id="taxDeducted" name="taxDeducted" inputmode="decimal" class="money" value="390.20"></div>
+  <details class="more"><summary>Check NI, student loan and year to date<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><div class="more-grid">
+  <div class="field"><label for="niDeducted">National Insurance deducted (£)</label><input id="niDeducted" name="niDeducted" inputmode="decimal" class="money" value=""></div>
+  <div class="field"><label for="niPay">Pay for NI, if different (£)</label><input id="niPay" name="niPay" inputmode="decimal" class="money" value=""></div>
+  <div class="field check"><label><input type="checkbox" id="niExempt" name="niExempt"> Over State Pension age (no NI)</label></div>
+  <div class="field"><label for="studentPlan">Student loan plan</label><select id="studentPlan" name="studentPlan"><option value="">None</option><option value="plan1">Plan 1</option><option value="plan2">Plan 2</option><option value="plan4">Plan 4 (Scotland)</option><option value="plan5">Plan 5</option><option value="postgrad">Postgraduate</option></select></div>
+  <div class="field"><label for="slDeducted">Student loan deducted (£)</label><input id="slDeducted" name="slDeducted" inputmode="decimal" class="money" value=""></div>
+  <div class="field"><label for="periodNo">Tax period number (month 1–12 / week 1–52)</label><input id="periodNo" name="periodNo" type="number" min="1" max="52" value=""></div>
+  <div class="field"><label for="payToDate">Taxable pay to date (£)</label><input id="payToDate" name="payToDate" inputmode="decimal" class="money" value=""></div>
+  <div class="field"><label for="taxToDate">Tax paid to date (£)</label><input id="taxToDate" name="taxToDate" inputmode="decimal" class="money" value=""></div></div></details>
+</form>
+  <div class="tear" aria-hidden="true"></div>
+  <div class="stub-row">
+    <div class="stub" id="stub" aria-live="polite"></div>
+    <div class="actions" data-copied="Link copied">
+  <button type="button" data-action="share"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><circle cx="18" cy="5" r="3"/><circle cx="6" cy="12" r="3"/><circle cx="18" cy="19" r="3"/><path d="m8.6 13.5 6.8 4"/><path d="m15.4 6.5-6.8 4"/></svg><span>Tear off &amp; share</span></button>
+  <button type="button" data-action="print"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"/><path d="M6 9V3a1 1 0 0 1 1-1h10a1 1 0 0 1 1 1v6"/><rect x="6" y="14" width="12" height="8" rx="1"/></svg><span>Print</span></button>
+  
+</div>
+  </div>
+  <div class="slip-body" id="result"></div>
+  <p class="slip-foot"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.7 9a1 1 0 0 1-.6 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1.2 1.2 0 0 1 1.6 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><span><a href="/uk/methodology/">Legal basis</a>: HMRC rates and thresholds 2026/27 · CWG2 PAYE method · Class 1 NI category A · Checked 2026-09-24. Calculated in your browser. Nothing you type is stored.</span></p>
+</section>
+  
+  
+  
+  <article class="content">
+<h2>Why 5.6 million people overpay through their tax code</h2>
+<p>PAYE tax is only as good as the code your employer holds. Emergency codes after a job change, a BR code on an only job,
+benefits in kind that ended years ago, or two jobs sharing one allowance all lead to the wrong deduction — and HMRC has no duty
+to tell you. UHY Hacker Young estimated 5.6 million people overpaid around £3.5bn in a single year because of wrong codes.
+Refunds are yours to claim for up to four tax years.</p>
+<h2>How the check works</h2>
+<p>Payroll works period by period. For a code such as 1257L it gives you <strong>free pay</strong> of (1257 × 10 + 9) ÷ 12 = £1,048.25 a month,
+rounds the rest down to the pound and applies the 2026/27 bands (20% up to £3,141.67 a month, 40% up to £10,428.33, 45% above; Scotland
+uses its own six bands). This tool repeats that calculation for the code you enter and compares it with the tax on your payslip. If the
+numbers disagree, it searches every code from BR to K2500 to find the one payroll actually applied. National Insurance is checked at the
+category A employee rate: 8% between £1,048 and £4,189 a month, 2% above.</p>
+<h2>What the common codes mean</h2>
+<table class="data"><thead><tr><th>Code</th><th>Meaning</th><th>Right when</th><th>Wrong when</th></tr></thead><tbody>
+<tr><td>1257L</td><td>Standard Personal Allowance £12,570</td><td>One job, no benefits, no adjustments</td><td>You have benefits in kind, Marriage Allowance or a second job</td></tr>
+<tr><td>1257L W1/M1 or X</td><td>Emergency, non-cumulative</td><td>First weeks of a new job</td><td>Still there months later — earlier overpayments are not refunded through payroll</td></tr>
+<tr><td>BR</td><td>All pay at 20%, no allowance</td><td>Second job or pension</td><td>Your only job — costs up to £2,514 a year</td></tr>
+<tr><td>0T</td><td>No allowance, normal bands</td><td>No starter checklist yet, or income over £125,140</td><td>Neither applies</td></tr>
+<tr><td>D0 / D1</td><td>All pay at 40% / 45%</td><td>Second income of a higher-rate taxpayer</td><td>Only or main job</td></tr>
+<tr><td>K497</td><td>Allowance is negative: £4,979 added to pay</td><td>Company car, medical insurance, tax owed</td><td>Benefits that ended, or debt already settled</td></tr>
+<tr><td>S1257L / C1257L</td><td>Scottish / Welsh rates</td><td>Your main home is in Scotland / Wales</td><td>You have moved</td></tr>
+<tr><td>1131N / 1383M</td><td>Marriage Allowance given / received</td><td>You claimed it</td><td>You separated or the claim ended</td></tr>
+</tbody></table>
+<h2>What to do if the tax is wrong</h2>
+<ol>
+  <li><strong>Payroll used a different code from the one printed?</strong> Ask your payroll team which code they hold and when it was received. They must use the latest code HMRC sent (a P6 or P9 notice).</li>
+  <li><strong>Code is applied correctly but looks wrong for you?</strong> Sign in to your <a href="https://www.gov.uk/check-income-tax-current-year" rel="nofollow noopener">personal tax account</a> and use "Check your Income Tax for the current year" to see how HMRC built the code and change wrong estimates of benefits or other income. Or call HMRC on 0300 200 3300 with your National Insurance number.</li>
+  <li><strong>Started a new job?</strong> Hand over your P45 or complete the starter checklist. Choose statement A (only job since 6 April) or B (had another job) correctly — statement C puts you on BR.</li>
+  <li><strong>Overpaid this year?</strong> Once HMRC issues a cumulative code, payroll refunds the excess in your next payslip. Otherwise HMRC sends a P800 calculation after 5 April and pays the refund to your bank via the personal tax account.</li>
+  <li><strong>Overpaid in earlier years?</strong> You can claim back to the 2022/23 tax year until 5 April 2027. Do not pay a refund company a percentage to do this — the form is free.</li>
+</ol>
+  <h2>Frequently asked questions</h2><div class="faq"><details><summary>Why is my tax code BR?<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>BR means all your pay is taxed at 20% with no Personal Allowance. It is correct for a second job or a pension, but on your only job it usually means your employer had no P45 or starter checklist. On £3,000 a month it costs about £210 a month more than 1257L until HMRC corrects it.</p></details><details><summary>What does W1, M1 or X after my code mean?<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>The code is being used on a non-cumulative &quot;week 1 / month 1&quot; basis: each pay period is taxed on its own, so earlier overpayments are not refunded through payroll. It is normal after a job change and should be replaced by a cumulative code within weeks.</p></details><details><summary>My payslip tax does not match any code — why?<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>The most common reason is a cumulative catch-up: after a code change, payroll adjusts the whole year to date in one payslip, so one period is unusually high or low. Enter your tax period number and year-to-date figures to check the cumulative position instead.</p></details><details><summary>How do I get a tax refund from HMRC?<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>If the code is fixed during the year, payroll refunds the excess automatically. After the tax year ends, HMRC sends a P800 letter; you claim the refund through your personal tax account or the HMRC app. You can go back four tax years.</p></details><details><summary>Does this check National Insurance too?<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>Yes. Enter the NI deducted and the tool compares it with the category A employee rate for 2026/27 (8% between £1,048 and £4,189 a month, 2% above). Directors, people over State Pension age and some under-21 or apprentice categories use different rules.</p></details><details><summary>Is my data sent anywhere?<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="m6 9 6 6 6-6"/></svg></summary><p>No. Everything is calculated in your browser; nothing you type is stored or transmitted.</p></details></div>
+  </article>
+  
+  
+  </div>
+  <aside class="rail rail-r" aria-label="See also">
+  <nav class="rail-block"><p class="rail-head">See also</p><ul>
+  <li><a href="/uk/salary/">Salary after tax table for common salaries<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></li><li><a href="/compare/">Compare take-home pay across 10 countries<svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a></li></ul></nav>
+  <p class="rail-trust"><svg class="i" viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M20 13c0 5-3.5 7.5-7.7 9a1 1 0 0 1-.6 0C7.5 20.5 4 18 4 13V6a1 1 0 0 1 1-1c2 0 4.5-1.2 6.2-2.7a1.2 1.2 0 0 1 1.6 0C14.5 3.8 17 5 19 5a1 1 0 0 1 1 1z"/><path d="m9 12 2 2 4-4"/></svg><span>Calculated in your browser. Nothing you type is stored.</span></p>
+  
+</aside>
+</main>
+<footer class="foot"><div class="wrap">
+  <a class="brand brand-foot" href="/"><svg class="mark" viewBox="0 0 32 32" aria-hidden="true" focusable="false"><path class="mark-sheet" d="M6 2.5h20v27H6z"/><path class="mark-line" d="M10 8h12M10 12.5h8"/><path class="mark-perf" d="M6 18.5h20"/><path class="mark-net" d="M10 23.5h12"/></svg><span class="brand-name">SmartCalc</span></a>
+  <nav class="foot-countries" aria-label="Country"><a href="/">Việt Nam</a><a href="/uk/" aria-current="page">United Kingdom</a><a href="/de/">Deutschland</a><a href="/in/">India</a><a href="/ph/">Philippines</a><a href="/us/">United States</a><a href="/ca/">Canada</a><a href="/au/">Australia</a><a href="/fr/">France</a><a href="/pl/">Polska</a><a href="/compare/">Compare</a></nav>
+  <p>Rules last checked: 2026-09-24. Results are estimates for guidance only. <a href="/uk/privacy/">Privacy & terms</a></p>
+</div></footer>
+<script src="/assets/uk-check.js?v=8875ec8076"></script><script src="/assets/uk-check-ui.js?v=8875ec8076"></script>
+<script src="/assets/actions.js?v=8875ec8076"></script>
+</body>
+</html>

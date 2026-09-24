@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 300" font-family="Arial,sans-serif" font-size="11">
+  <rect width="520" height="300" fill="#fff"/>
+  <rect width="520" height="34" fill="#0f766e"/>
+  <text x="14" y="22" fill="#fff" font-size="14" font-weight="700">BẢNG LƯƠNG THÁNG 09/2026</text>
+  <g fill="#e6f3f1"><rect y="44" width="520" height="24"/></g>
+  <g font-weight="700" fill="#16201e">
+    <text x="10" y="60">Mã</text><text x="44" y="60">Họ tên</text><text x="150" y="60">Lương Gross</text>
+    <text x="240" y="60">BH (10,5%)</text><text x="322" y="60">Thuế TNCN</text><text x="410" y="60">Thực lĩnh</text>
+  </g>
+  <g fill="#16201e">
+    <text x="10" y="88">NV01</text><text x="44" y="88">Nguyễn Văn A</text><text x="150" y="88">30.000.000</text><text x="240" y="88">3.150.000</text><text x="322" y="88">635.000</text><text x="410" y="88" font-weight="700">26.215.000</text>
+    <text x="10" y="112">NV02</text><text x="44" y="112">Trần Thị B</text><text x="150" y="112">18.000.000</text><text x="240" y="112">1.890.000</text><text x="322" y="112">30.500</text><text x="410" y="112" font-weight="700">16.079.500</text>
+    <text x="10" y="136">NV03</text><text x="44" y="136">Lê Văn C</text><text x="150" y="136">45.000.000</text><text x="240" y="136">4.725.000</text><text x="322" y="136">1.977.500</text><text x="410" y="136" font-weight="700">38.297.500</text>
+    <text x="10" y="160">NV04</text><text x="44" y="160">Phạm Thị D</text><text x="150" y="160">12.000.000</text><text x="240" y="160">1.260.000</text><text x="322" y="160">0</text><text x="410" y="160" font-weight="700">10.740.000</text>
+  </g>
+  <g stroke="#dfe5e3"><line x1="0" y1="96" x2="520" y2="96"/><line x1="0" y1="120" x2="520" y2="120"/><line x1="0" y1="144" x2="520" y2="144"/><line x1="0" y1="168" x2="520" y2="168"/></g>
+  <rect x="14" y="196" width="492" height="86" rx="8" fill="#f7f8f7" stroke="#dfe5e3"/>
+  <text x="28" y="222" font-weight="700" font-size="13" fill="#0f766e">Tự động theo luật 2026</text>
+  <text x="28" y="244" fill="#5b6765">Giảm trừ 15,5 tr · Biểu thuế 5 bậc · Trần BHXH 50,6 tr · Lương vùng mới</text>
+  <text x="28" y="266" fill="#5b6765">Phiếu lương từng nhân viên · Tổng hợp BH &amp; thuế phải nộp</text>
+</svg>

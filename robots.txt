@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://steel1927.github.io/sitemap.xml
